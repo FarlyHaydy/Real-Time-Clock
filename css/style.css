@@ -85,7 +85,7 @@ svg {
 }
 @media only screen and (max-width: 890px) {
     .container {
-        width: 350px;
+        width: 700px;
 }
 .clock span {
     font-size: 40px;
@@ -93,7 +93,6 @@ svg {
 }
 #hrs::after{
     font-size: 10px;
-    
 }
 #min::after{
     font-size: 10px;
@@ -101,5 +100,73 @@ svg {
 #sec::after{
     font-size: 10px;
 
+}
+}
+@media only screen and (max-width: 798px) {
+    .container {
+        width: 600px;
+}
+.clock span {
+    font-size: 40px;
+    font-weight: bold;
+}
+#hrs::after{
+    font-size: 10px;
+}
+#min::after{
+    font-size: 10px;
+}
+#sec::after{
+    font-size: 10px;
+
+}
+}
+@media only screen and (max-width: 698px) {
+    .container {
+        width: 400px;
+}
+.clock span {
+    font-size: 40px;
+    font-weight: bold;
+}
+#hrs::after{
+    font-size: 10px;
+}
+#min::after{
+    font-size: 10px;
+}
+#sec::after{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 497px) {
+    .container {
+        width: 300px; 
+    }
+
+    .clock span {
+        font-size: 30px; 
+    }
+
+    #hrs::after,
+    #min::after,
+    #sec::after {
+        font-size: 8px; 
+    }
+}
+@media only screen and (max-width: 390px) {
+    .container {
+        width: 250px; 
+    }
+
+    .clock span {
+        font-size: 20px; 
+    }
+
+    #hrs::after,
+    #min::after,
+    #sec::after {
+        font-size: 6px; 
+    }
 }
 }
