@@ -154,19 +154,5 @@ svg {
         font-size: 8px; 
     }
 }
-@media only screen and (max-width: 390px) {
-    .container {
-        width: 250px; 
-    }
 
-    .clock span {
-        font-size: 20px; 
-    }
-
-    #hrs::after,
-    #min::after,
-    #sec::after {
-        font-size: 6px; 
-    }
-}
 }
