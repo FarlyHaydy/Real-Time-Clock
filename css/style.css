@@ -83,3 +83,23 @@ svg {
 #sec::after{
     content: 'SEC';
 }
+@media only screen and (max-width: 890px) {
+    .container {
+        width: 350px;
+}
+.clock span {
+    font-size: 40px;
+    font-weight: bold;
+}
+#hrs::after{
+    font-size: 10px;
+    
+}
+#min::after{
+    font-size: 10px;
+}
+#sec::after{
+    font-size: 10px;
+
+}
+}
